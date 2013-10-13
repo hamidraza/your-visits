@@ -1,0 +1,49 @@
+body.your-visits-push {
+    margin-top: 30px !important;
+}
+#your-visits {
+    cursor: default;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 10px;
+    z-index: 9999999999;
+    text-align: left;
+    font-family: Arial;
+    line-height: 20px;
+    border-bottom: 1px solid #ccc;
+    display: none;
+}
+.your-visits-push #your-visits {
+    display: block;
+}
+.your-visits-push #your-visits .close {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    height: 20px;
+    width: 20px;
+    color: #ccc;
+    line-height: 20px;
+    background: #000;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+}
+
+/* Google search page fix */
+.your-visits-push #mngb .gb_pb {
+    margin-top: 30px !important;
+}
+
+/* Facebook search box fix */
+.your-visits-push #blueBar {
+    margin-top: 30px !important;
+}
+.your-visits-push .fbChatSidebar {
+    top: 30px !important;
+}
